@@ -4,7 +4,7 @@ A simple **Rock-Paper-Scissors** game built with **HTML, CSS, and JavaScript**.
 Challenge yourself against the computer and see if you can win! 🎮  
 
 ## 🌐 Live Demo  
-link : https://github.com/mohammad-taha188/Rock-Paper-Scissors
+link : [https://github.com/mohammad-taha188/Rock-Paper-Scissors](https://mohammad-taha188.github.io/Rock-Paper-Scissors/)
 
 ## 📂 Project Structure  
 
