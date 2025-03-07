@@ -1,0 +1,71 @@
+::-webkit-scrollbar {
+  width: 1vb;
+  height: 1vb;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #bdbdbd;
+}
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+*::selection {
+  background-color: #212121;
+  color: #fafafa;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hand {
+  cursor: pointer;
+  user-select: none;
+  font-size: 60px;
+  display: inline;
+  box-shadow: 3px 6px 6px 0px rgba(207, 216, 220, 0.87);
+  border: 1px solid rgba(236, 240, 241, 0.87);
+  border-radius: 10px;
+  padding: 20px;
+}
+.hand:active {
+  border: 1px solid rgba(207, 216, 220, 0.87);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+}
+.btn_start {
+  box-shadow: 3px 6px 6px 0px rgba(207, 216, 220, 0.87);
+  border: 1px solid rgba(236, 240, 241, 0.87);
+  border-radius: 10px;
+  width: 90px;
+  padding: 10px 20px;
+}
+
+.btn_start:active {
+  border: 1px solid rgba(207, 216, 220, 0.87);
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #212121;
+  margin: 20px;
+}
+.active {
+  border: 1px solid rgba(146, 146, 146, 0.87);
+}
+.my-link {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.my-link a {
+  text-decoration: none;
+  color: #212121;
+}
